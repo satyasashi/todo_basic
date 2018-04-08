@@ -1,16 +1,22 @@
 body {
-	background: rgb(53, 48, 47);
+	background: #fff;
 	font-family: 'Oswald', 'Futura', sans-serif;
+	background: url('img/notebook.jpeg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #wrapper {
 	margin-top: 10% !important;
 }
 #content {
-	background: #4e878e;
+	background: rgba(242, 242, 242, 0.8);
+
 	padding: 25px;
 }
-#content > h2 {
-	font-size: 18px;
+#content > h1 {
+	font-family: 'Lobster', cursive;
 	text-align: center;
 	padding-top: 0;
 }
@@ -31,4 +37,5 @@ footer {
 
 .list-group-item {
 	color: black;
+	border: 1px dashed  #d9d9d9;
 }
